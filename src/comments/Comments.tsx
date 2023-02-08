@@ -14,7 +14,7 @@ const filteredComments = (entities: IComment[], search: string): IComment[] =>
 
 export const Comments = () => {
 
-    // const [isPending, startTransition] = useTransition()
+    const [isPending, startTransition] = useTransition()
     const [comments, setComments] = useState<IComment[]>([])
     const [search, setSearch] = useState('')
 
