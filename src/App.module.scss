@@ -1,0 +1,17 @@
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    header,
+    footer {
+        flex: 1 0 50px;
+        background-color: aquamarine;
+    }
+
+    section {
+        background-color: lightgray;
+
+    }
+}
